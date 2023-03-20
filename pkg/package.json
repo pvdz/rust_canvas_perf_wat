@@ -1,0 +1,12 @@
+{
+  "name": "rustcanvasfps",
+  "version": "0.1.0",
+  "files": [
+    "rustcanvasfps_bg.wasm",
+    "rustcanvasfps.js",
+    "rustcanvasfps.d.ts"
+  ],
+  "module": "rustcanvasfps.js",
+  "types": "rustcanvasfps.d.ts",
+  "sideEffects": false
+}

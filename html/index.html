@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>perfwat</title>
+  <meta charset="utf-8">
+</head>
+<body>
+<script type="module">
+  console.log('(html) start');
+  import('../pkg/rustcanvasfps.js').then(x => {
+    console.log('(html) loaded, starting Factini now');
+    x.default();
+  }, (e) => console.error(e));
+  console.log('(html) after import');
+</script>
+
+<div id="$main_game"></div>
+
+</body>
+</html>
